@@ -10,7 +10,7 @@ int sum = 0;
 int number = Convert.ToInt32(Console.ReadLine());
 int countPositive = 0; 
 
-while (number != 0)  // делим число на 10, пока оно не будет равно 0 (станет меньше 1) 
+while (number != 0)  // делим число на 10, пока оно не будет равно 0  
  {
      digit = number % 10;   // берем остаток от деления на 10
      sum = sum + digit;    // суммируем цифры в числе
