@@ -16,7 +16,7 @@ for (int i = 0; i < array.GetLength(0); i++) // строчки: GetLength(1) = m
 {
     for (int j = 0; j < array.GetLength(1); j++)// столбцам: GetLength(1) = n(кол-во столбцов)     
     {
-        array[i, j] = new Random().Next(0, 10); //[)         
+        array[i, j] = new Random().Next(0, 10);          
         Console.Write(array[i, j] + "\t"); // \t - Tab
     }
     System.Console.WriteLine();   
