@@ -15,4 +15,5 @@ int Sum(int M, int N)
     // Рекурсивный случай     
     return (N + Sum(M, N - 1));  
 }  
-Console.WriteLine(Sum(M, N));  
+Console.WriteLine(Sum(M, N)); 
+ 
