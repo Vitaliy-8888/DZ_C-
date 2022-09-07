@@ -40,8 +40,7 @@ else
 { 
         Console.WriteLine("Третьей цифры нет");
 }
-    
-    
+
 
          
     
