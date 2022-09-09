@@ -17,3 +17,4 @@ while (number <= N)  // делаем цикл в диапазоне от 1 до 
     number = number +1;
 }
 
+
